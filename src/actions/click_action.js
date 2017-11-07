@@ -1,4 +1,4 @@
-export function incriment() {
+export const incriment = () => {
     return dispatch => {
         dispatch({
             type: "PLUS",

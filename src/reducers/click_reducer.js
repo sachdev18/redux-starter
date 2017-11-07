@@ -1,5 +1,6 @@
 const clickReducer = (state = {counter: 0}, action) => {
-    switch (action.type) {
+console.log(state,"fedsasfdco");
+    switch (action.type !== undefined) {
         case 'incrimemt': 
         state = {
             ...state,

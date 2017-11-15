@@ -1,21 +1,19 @@
-const initialState = {
-  counter: 0
-}
+// const initialState = {
+//   counter: 0
+// }
 
-const clickReducer = (state = initialState, action) => {
-  debugger;
+const clickReducer = (state, action) => {
   switch (action.type) {
     case 'PLUS':
-      return Object.assign({}, state, {
-        counter: state.counter + action.payload
-      })
+      // return Object.assign({}, state, {
+      //   counter: state.counter + action.payload
+      // })
     case 'MINUS':
-    return Object.assign({}, state, {
-      counter: state.counter - action.payload
-    })
-    default:
-      return state
+    // return Object.assign({}, state, {
+    //   counter: state.counter - action.payload
+    // })
   }
+    return state
 }
 
 // const clickReducer = (state = {counter: 0}, action) => {

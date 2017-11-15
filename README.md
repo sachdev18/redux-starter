@@ -23,3 +23,9 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
+References and Guides:
+1. https://hackernoon.com/redux-step-by-step-a-simple-and-robust-workflow-for-real-life-apps-1fdf7df46092
+2. https://steemit.com/technology/@ytienchu/web-dev-beginner-s-guide-to-react-redux-how-to-start-learning-and-not-be-overwhelmed
+3. Academind redux -- @youtube
+4. Udemy React Redux -- Tyler Mcgnnis
+5. https://redux.js.org/docs/basics/Reducers.html

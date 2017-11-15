@@ -1,9 +1,22 @@
 import React, { Component } from 'react';
 
-export const Display_counter = () => {
-  return (
-    <div>
-      This space is meant to display text field 
-    </div>
-);
+ class Display_counter extends Component {
+
+    render() {
+
+      return (
+        <div>
+          {this.props.counter}
+        </div>
+    );
+    }
 }
+
+const mapStateToProps = (state) => {
+    return {
+        counter: state.counter,
+
+    }
+}
+
+export default Display_counter;

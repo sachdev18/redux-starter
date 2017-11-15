@@ -1,13 +1,13 @@
-export const incriment = () => {
-    return dispatch => {
-        dispatch({
+export const incriment = (dispatch) => {
+    //return dispatch => {
+        return ({
             type: "PLUS",
             payload: 1
-        })
-    }
+        });
+    //}
 }
 
-export function decriment() {
+export const decriment = () => {
     return dispatch => {
         dispatch({
             type: "MINUS",

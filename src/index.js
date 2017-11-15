@@ -11,13 +11,9 @@ import { logger } from "redux-logger";
 // const middleware = applyMiddleware()(createStore);
 // const store = middleware(clickReducer)
 
-const store = createStore(clickReducer,
-
-window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-);
+const store = createStore(clickReducer);
 ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>
   , document.querySelector('.container'));
-
